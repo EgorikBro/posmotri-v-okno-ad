@@ -80,3 +80,4 @@ text
 ---
 
 *Проект выполнен в рамках учебной программы по веб-разработке*
+https://github.com/EgorikBro/posmotri-v-okno-ad
