@@ -57,6 +57,7 @@ html {
 }
 
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
 }
@@ -211,6 +212,10 @@ html {
   border: 1px #fff;
 }
 
+.content__list-item:first-child{
+  margin-top: 2px;
+}
+
 .content__list-item:last-child {
   margin-bottom: 0;
 }
@@ -227,6 +232,10 @@ html {
 
 .content__card-link:active{
   background-color: #545050;
+}
+
+.content__card-link_current { 
+  background: #545050;
 }
 
 .content__video-card {
@@ -260,6 +269,7 @@ html {
   font-weight: 700;
   font-size: 30px;
   font-style: Bold;
+  color: #fff;
   line-height: 100%;
   text-transform: uppercase;
   text-overflow: ellipsis;
